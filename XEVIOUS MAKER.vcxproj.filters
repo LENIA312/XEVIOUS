@@ -1,0 +1,423 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="XEVIOUS MAKER">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="XEVIOUS MAKER\Comon">
+      <UniqueIdentifier>{587f2493-7d41-40bd-ae3e-1ce49634f392}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XEVIOUS MAKER\Resorce">
+      <UniqueIdentifier>{103753f3-a28a-4600-aa83-b1817831db9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XEVIOUS MAKER\Input">
+      <UniqueIdentifier>{8184ecd6-2264-471a-b316-dda2ae5150a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XEVIOUS MAKER\GameObject">
+      <UniqueIdentifier>{6d7f32c9-99db-47c7-b182-80fb261f4aa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XEVIOUS MAKER\GameObject\Player">
+      <UniqueIdentifier>{4ff52d8e-972e-4390-a31d-930ad0bd3cd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XEVIOUS MAKER\GameObject\Background">
+      <UniqueIdentifier>{41748c81-f0f7-4e8c-ab7d-dfc39b8bff7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XEVIOUS MAKER\GameObject\UI">
+      <UniqueIdentifier>{7d0a6048-3b48-4eb2-8d47-2619bef7def2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XEVIOUS MAKER\GameObject\Camera">
+      <UniqueIdentifier>{81fb1e34-e438-4f71-b5b8-5abc7c93afcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XEVIOUS MAKER\GameObject\NPC">
+      <UniqueIdentifier>{bf3a1e68-634d-4258-8003-829bffc3b9b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XEVIOUS MAKER\GameObject\NPC\Item">
+      <UniqueIdentifier>{09fca1f6-c6b0-4f17-901f-a934194cb628}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XEVIOUS MAKER\GameObject\NPC\EnemyBullet">
+      <UniqueIdentifier>{85caa2c9-617a-45d7-8854-0e14085a60dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XEVIOUS MAKER\GameObject\Editor">
+      <UniqueIdentifier>{53d51bec-8051-4d01-8a12-b4a1d93c10a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XEVIOUS MAKER\Scene">
+      <UniqueIdentifier>{d83b97bb-daee-4d44-ba4c-2d479a50f096}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XEVIOUS MAKER\Scene\GameScene">
+      <UniqueIdentifier>{9007f7a3-6438-491e-84bb-141fbf7c466c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XEVIOUS MAKER\Scene\TitleScene">
+      <UniqueIdentifier>{ba14ba16-a0fe-45f9-a040-72e44d7254d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XEVIOUS MAKER\Scene\EditorScene">
+      <UniqueIdentifier>{7399ba37-25a5-492c-a97c-f0efed910902}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XEVIOUS MAKER\GameObject\NPC\SmallEnemy">
+      <UniqueIdentifier>{f3afc093-d317-45c1-b382-823aa411b208}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XEVIOUS MAKER\GameObject\NPC\SmallEnemy\Ground">
+      <UniqueIdentifier>{19e6aac5-0b1d-46c0-b6d5-a6801bb2c697}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XEVIOUS MAKER\GameObject\NPC\SmallEnemy\Sky">
+      <UniqueIdentifier>{a395b657-201d-47c9-bfb9-4adcb5080031}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XEVIOUS MAKER\GameObject\NPC\BigEnemy">
+      <UniqueIdentifier>{f3865fc1-5a2f-42af-ae51-71c5115e22d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XEVIOUS MAKER\GameObject\NPC\BossEnemy">
+      <UniqueIdentifier>{c456562a-efac-4259-a066-23f714428196}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Main.cpp">
+      <Filter>XEVIOUS MAKER</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SystemMain.cpp">
+      <Filter>XEVIOUS MAKER</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Fps.cpp">
+      <Filter>XEVIOUS MAKER\Comon</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameScene.cpp">
+      <Filter>XEVIOUS MAKER\Scene\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TitleScene.cpp">
+      <Filter>XEVIOUS MAKER\Scene\TitleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UI.cpp">
+      <Filter>XEVIOUS MAKER\GameObject\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Background.cpp">
+      <Filter>XEVIOUS MAKER\GameObject\Background</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Define.cpp">
+      <Filter>XEVIOUS MAKER\Comon</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Camera.cpp">
+      <Filter>XEVIOUS MAKER\GameObject\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EditorScene.cpp">
+      <Filter>XEVIOUS MAKER\Scene\EditorScene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EditorUI.cpp">
+      <Filter>XEVIOUS MAKER\GameObject\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SetNPC.cpp">
+      <Filter>XEVIOUS MAKER\GameObject\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game.cpp">
+      <Filter>XEVIOUS MAKER</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SceneManager.cpp">
+      <Filter>XEVIOUS MAKER\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BGM.cpp">
+      <Filter>XEVIOUS MAKER\Resorce</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Image.cpp">
+      <Filter>XEVIOUS MAKER\Resorce</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SE.cpp">
+      <Filter>XEVIOUS MAKER\Resorce</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Keyboard.cpp">
+      <Filter>XEVIOUS MAKER\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mouse.cpp">
+      <Filter>XEVIOUS MAKER\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Pad.cpp">
+      <Filter>XEVIOUS MAKER\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Barra.cpp">
+      <Filter>XEVIOUS MAKER\GameObject\NPC\SmallEnemy\Ground</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Bozalogram.cpp">
+      <Filter>XEVIOUS MAKER\GameObject\NPC\SmallEnemy\Ground</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Derota.cpp">
+      <Filter>XEVIOUS MAKER\GameObject\NPC\SmallEnemy\Ground</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Domogram.cpp">
+      <Filter>XEVIOUS MAKER\GameObject\NPC\SmallEnemy\Ground</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Grobda.cpp">
+      <Filter>XEVIOUS MAKER\GameObject\NPC\SmallEnemy\Ground</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Logram.cpp">
+      <Filter>XEVIOUS MAKER\GameObject\NPC\SmallEnemy\Ground</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Zolbak.cpp">
+      <Filter>XEVIOUS MAKER\GameObject\NPC\SmallEnemy\Ground</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Jara.cpp">
+      <Filter>XEVIOUS MAKER\GameObject\NPC\SmallEnemy\Sky</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Kapi.cpp">
+      <Filter>XEVIOUS MAKER\GameObject\NPC\SmallEnemy\Sky</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Sheonite.cpp">
+      <Filter>XEVIOUS MAKER\GameObject\NPC\SmallEnemy\Sky</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Terrazi.cpp">
+      <Filter>XEVIOUS MAKER\GameObject\NPC\SmallEnemy\Sky</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Torken.cpp">
+      <Filter>XEVIOUS MAKER\GameObject\NPC\SmallEnemy\Sky</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Toroid.cpp">
+      <Filter>XEVIOUS MAKER\GameObject\NPC\SmallEnemy\Sky</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Zoshi.cpp">
+      <Filter>XEVIOUS MAKER\GameObject\NPC\SmallEnemy\Sky</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Bacura.cpp">
+      <Filter>XEVIOUS MAKER\GameObject\NPC\BigEnemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GaruBarra.cpp">
+      <Filter>XEVIOUS MAKER\GameObject\NPC\BigEnemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Sol.cpp">
+      <Filter>XEVIOUS MAKER\GameObject\NPC\BigEnemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GaruDerota.cpp">
+      <Filter>XEVIOUS MAKER\GameObject\NPC\BigEnemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AddorGuileness.cpp">
+      <Filter>XEVIOUS MAKER\GameObject\NPC\BossEnemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BragSpario.cpp">
+      <Filter>XEVIOUS MAKER\GameObject\NPC\EnemyBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BragZakato.cpp">
+      <Filter>XEVIOUS MAKER\GameObject\NPC\EnemyBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GaruZakato.cpp">
+      <Filter>XEVIOUS MAKER\GameObject\NPC\EnemyBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GidoSpario.cpp">
+      <Filter>XEVIOUS MAKER\GameObject\NPC\EnemyBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Spario.cpp">
+      <Filter>XEVIOUS MAKER\GameObject\NPC\EnemyBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Zakato.cpp">
+      <Filter>XEVIOUS MAKER\GameObject\NPC\EnemyBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SpecialFlag.cpp">
+      <Filter>XEVIOUS MAKER\GameObject\NPC\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Blaster.cpp">
+      <Filter>XEVIOUS MAKER\GameObject\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Player.cpp">
+      <Filter>XEVIOUS MAKER\GameObject\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Zapper.cpp">
+      <Filter>XEVIOUS MAKER\GameObject\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BaseNPC.cpp">
+      <Filter>XEVIOUS MAKER\GameObject\NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NPCManager.cpp">
+      <Filter>XEVIOUS MAKER\GameObject\NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AbstractGameObject.cpp">
+      <Filter>XEVIOUS MAKER\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FadeEfect.cpp">
+      <Filter>XEVIOUS MAKER</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Xprintf.cpp">
+      <Filter>XEVIOUS MAKER</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\SystemMain.h">
+      <Filter>XEVIOUS MAKER</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Define.h">
+      <Filter>XEVIOUS MAKER\Comon</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Fps.h">
+      <Filter>XEVIOUS MAKER\Comon</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Singleton.h">
+      <Filter>XEVIOUS MAKER\Comon</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameScene.h">
+      <Filter>XEVIOUS MAKER\Scene\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TitleScene.h">
+      <Filter>XEVIOUS MAKER\Scene\TitleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\UI.h">
+      <Filter>XEVIOUS MAKER\GameObject\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Background.h">
+      <Filter>XEVIOUS MAKER\GameObject\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Camera.h">
+      <Filter>XEVIOUS MAKER\GameObject\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="src\EditorScene.h">
+      <Filter>XEVIOUS MAKER\Scene\EditorScene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\EditorUI.h">
+      <Filter>XEVIOUS MAKER\GameObject\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SetNPC.h">
+      <Filter>XEVIOUS MAKER\GameObject\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game.h">
+      <Filter>XEVIOUS MAKER</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Icon.h">
+      <Filter>XEVIOUS MAKER</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AbstractScene.h">
+      <Filter>XEVIOUS MAKER\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\InterfaceSceneChanger.h">
+      <Filter>XEVIOUS MAKER\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SceneList.h">
+      <Filter>XEVIOUS MAKER\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SceneManager.h">
+      <Filter>XEVIOUS MAKER\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BGM.h">
+      <Filter>XEVIOUS MAKER\Resorce</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Image.h">
+      <Filter>XEVIOUS MAKER\Resorce</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SE.h">
+      <Filter>XEVIOUS MAKER\Resorce</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Keyboard.h">
+      <Filter>XEVIOUS MAKER\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mouse.h">
+      <Filter>XEVIOUS MAKER\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Pad.h">
+      <Filter>XEVIOUS MAKER\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Barra.h">
+      <Filter>XEVIOUS MAKER\GameObject\NPC\SmallEnemy\Ground</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Bozalogram.h">
+      <Filter>XEVIOUS MAKER\GameObject\NPC\SmallEnemy\Ground</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Derota.h">
+      <Filter>XEVIOUS MAKER\GameObject\NPC\SmallEnemy\Ground</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Domogram.h">
+      <Filter>XEVIOUS MAKER\GameObject\NPC\SmallEnemy\Ground</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Grobda.h">
+      <Filter>XEVIOUS MAKER\GameObject\NPC\SmallEnemy\Ground</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Logram.h">
+      <Filter>XEVIOUS MAKER\GameObject\NPC\SmallEnemy\Ground</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Zolbak.h">
+      <Filter>XEVIOUS MAKER\GameObject\NPC\SmallEnemy\Ground</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Jara.h">
+      <Filter>XEVIOUS MAKER\GameObject\NPC\SmallEnemy\Sky</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Kapi.h">
+      <Filter>XEVIOUS MAKER\GameObject\NPC\SmallEnemy\Sky</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Sheonite.h">
+      <Filter>XEVIOUS MAKER\GameObject\NPC\SmallEnemy\Sky</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Terrazi.h">
+      <Filter>XEVIOUS MAKER\GameObject\NPC\SmallEnemy\Sky</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Torken.h">
+      <Filter>XEVIOUS MAKER\GameObject\NPC\SmallEnemy\Sky</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Toroid.h">
+      <Filter>XEVIOUS MAKER\GameObject\NPC\SmallEnemy\Sky</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Zoshi.h">
+      <Filter>XEVIOUS MAKER\GameObject\NPC\SmallEnemy\Sky</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Bacura.h">
+      <Filter>XEVIOUS MAKER\GameObject\NPC\BigEnemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GaruBarra.h">
+      <Filter>XEVIOUS MAKER\GameObject\NPC\BigEnemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Sol.h">
+      <Filter>XEVIOUS MAKER\GameObject\NPC\BigEnemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GaruDerota.h">
+      <Filter>XEVIOUS MAKER\GameObject\NPC\BigEnemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AddorGuileness.h">
+      <Filter>XEVIOUS MAKER\GameObject\NPC\BossEnemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BragSpario.h">
+      <Filter>XEVIOUS MAKER\GameObject\NPC\EnemyBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BragZakato.h">
+      <Filter>XEVIOUS MAKER\GameObject\NPC\EnemyBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GaruZakato.h">
+      <Filter>XEVIOUS MAKER\GameObject\NPC\EnemyBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GidoSpario.h">
+      <Filter>XEVIOUS MAKER\GameObject\NPC\EnemyBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Spario.h">
+      <Filter>XEVIOUS MAKER\GameObject\NPC\EnemyBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Zakato.h">
+      <Filter>XEVIOUS MAKER\GameObject\NPC\EnemyBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SpecialFlag.h">
+      <Filter>XEVIOUS MAKER\GameObject\NPC\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Blaster.h">
+      <Filter>XEVIOUS MAKER\GameObject\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Player.h">
+      <Filter>XEVIOUS MAKER\GameObject\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Zapper.h">
+      <Filter>XEVIOUS MAKER\GameObject\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="src\InterfaceNPCEvent.h">
+      <Filter>XEVIOUS MAKER\GameObject\NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BaseNPC.h">
+      <Filter>XEVIOUS MAKER\GameObject\NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="src\NPCManager.h">
+      <Filter>XEVIOUS MAKER\GameObject\NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="src\NPCDATA.h">
+      <Filter>XEVIOUS MAKER\GameObject\NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AbstractGameObject.h">
+      <Filter>XEVIOUS MAKER\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FadeEffect.h">
+      <Filter>XEVIOUS MAKER</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Xprintf.h">
+      <Filter>XEVIOUS MAKER</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="src\Icon.rc">
+      <Filter>XEVIOUS MAKER</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

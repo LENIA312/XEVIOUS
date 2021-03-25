@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{DD1A875C-A762-4502-B6DF-4946D1A54BF6}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>XEVIOUS</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="src\AddorGuileness.cpp" />
+    <ClCompile Include="src\Background.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\Bacura.cpp" />
+    <ClCompile Include="src\Barra.cpp" />
+    <ClCompile Include="src\BGM.cpp" />
+    <ClCompile Include="src\Blaster.cpp" />
+    <ClCompile Include="src\Bozalogram.cpp" />
+    <ClCompile Include="src\BragSpario.cpp" />
+    <ClCompile Include="src\BragZakato.cpp" />
+    <ClCompile Include="src\Camera.cpp" />
+    <ClCompile Include="src\Define.cpp" />
+    <ClCompile Include="src\Derota.cpp" />
+    <ClCompile Include="src\Domogram.cpp" />
+    <ClCompile Include="src\EditorScene.cpp" />
+    <ClCompile Include="src\EditorUI.cpp" />
+    <ClCompile Include="src\FadeEfect.cpp" />
+    <ClCompile Include="src\Fps.cpp" />
+    <ClCompile Include="src\AbstractGameObject.cpp" />
+    <ClCompile Include="src\GameScene.cpp" />
+    <ClCompile Include="src\GaruBarra.cpp" />
+    <ClCompile Include="src\GaruDerota.cpp" />
+    <ClCompile Include="src\GaruZakato.cpp" />
+    <ClCompile Include="src\GidoSpario.cpp" />
+    <ClCompile Include="src\Grobda.cpp" />
+    <ClCompile Include="src\Image.cpp" />
+    <ClCompile Include="src\Jara.cpp" />
+    <ClCompile Include="src\Kapi.cpp" />
+    <ClCompile Include="src\Keyboard.cpp" />
+    <ClCompile Include="src\Logram.cpp" />
+    <ClCompile Include="src\Main.cpp" />
+    <ClCompile Include="src\Game.cpp" />
+    <ClCompile Include="src\Mouse.cpp" />
+    <ClCompile Include="src\BaseNPC.cpp" />
+    <ClCompile Include="src\NPCManager.cpp" />
+    <ClCompile Include="src\Pad.cpp" />
+    <ClCompile Include="src\Player.cpp" />
+    <ClCompile Include="src\SceneManager.cpp" />
+    <ClCompile Include="src\SE.cpp" />
+    <ClCompile Include="src\SetNPC.cpp" />
+    <ClCompile Include="src\Sheonite.cpp" />
+    <ClCompile Include="src\Sol.cpp" />
+    <ClCompile Include="src\Spario.cpp" />
+    <ClCompile Include="src\SpecialFlag.cpp" />
+    <ClCompile Include="src\SystemMain.cpp" />
+    <ClCompile Include="src\Terrazi.cpp" />
+    <ClCompile Include="src\TitleScene.cpp" />
+    <ClCompile Include="src\Torken.cpp" />
+    <ClCompile Include="src\Toroid.cpp" />
+    <ClCompile Include="src\UI.cpp" />
+    <ClCompile Include="src\Xprintf.cpp" />
+    <ClCompile Include="src\Zakato.cpp" />
+    <ClCompile Include="src\Zapper.cpp" />
+    <ClCompile Include="src\Zolbak.cpp" />
+    <ClCompile Include="src\Zoshi.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\AddorGuileness.h" />
+    <ClInclude Include="src\Background.h" />
+    <ClInclude Include="src\Bacura.h" />
+    <ClInclude Include="src\Barra.h" />
+    <ClInclude Include="src\AbstractScene.h" />
+    <ClInclude Include="src\BGM.h" />
+    <ClInclude Include="src\Blaster.h" />
+    <ClInclude Include="src\Bozalogram.h" />
+    <ClInclude Include="src\BragSpario.h" />
+    <ClInclude Include="src\BragZakato.h" />
+    <ClInclude Include="src\Camera.h" />
+    <ClInclude Include="src\Define.h" />
+    <ClInclude Include="src\Derota.h" />
+    <ClInclude Include="src\Domogram.h" />
+    <ClInclude Include="src\EditorScene.h" />
+    <ClInclude Include="src\EditorUI.h" />
+    <ClInclude Include="src\FadeEffect.h" />
+    <ClInclude Include="src\SceneList.h" />
+    <ClInclude Include="src\Fps.h" />
+    <ClInclude Include="src\AbstractGameObject.h" />
+    <ClInclude Include="src\GameScene.h" />
+    <ClInclude Include="src\GaruBarra.h" />
+    <ClInclude Include="src\GaruDerota.h" />
+    <ClInclude Include="src\GaruZakato.h" />
+    <ClInclude Include="src\GidoSpario.h" />
+    <ClInclude Include="src\Grobda.h" />
+    <ClInclude Include="src\Icon.h" />
+    <ClInclude Include="src\Image.h" />
+    <ClInclude Include="src\InterfaceNPCEvent.h" />
+    <ClInclude Include="src\InterfaceSceneChanger.h" />
+    <ClInclude Include="src\Jara.h" />
+    <ClInclude Include="src\Kapi.h" />
+    <ClInclude Include="src\Keyboard.h" />
+    <ClInclude Include="src\Logram.h" />
+    <ClInclude Include="src\Game.h" />
+    <ClInclude Include="src\Mouse.h" />
+    <ClInclude Include="src\BaseNPC.h" />
+    <ClInclude Include="src\NPCManager.h" />
+    <ClInclude Include="src\Pad.h" />
+    <ClInclude Include="src\Player.h" />
+    <ClInclude Include="src\SceneManager.h" />
+    <ClInclude Include="src\SE.h" />
+    <ClInclude Include="src\SetNPC.h" />
+    <ClInclude Include="src\Sheonite.h" />
+    <ClInclude Include="src\Singleton.h" />
+    <ClInclude Include="src\Sol.h" />
+    <ClInclude Include="src\Spario.h" />
+    <ClInclude Include="src\SpecialFlag.h" />
+    <ClInclude Include="src\NPCDATA.h" />
+    <ClInclude Include="src\SystemMain.h" />
+    <ClInclude Include="src\Terrazi.h" />
+    <ClInclude Include="src\TitleScene.h" />
+    <ClInclude Include="src\Torken.h" />
+    <ClInclude Include="src\Toroid.h" />
+    <ClInclude Include="src\UI.h" />
+    <ClInclude Include="src\Xprintf.h" />
+    <ClInclude Include="src\Zakato.h" />
+    <ClInclude Include="src\Zapper.h" />
+    <ClInclude Include="src\Zolbak.h" />
+    <ClInclude Include="src\Zoshi.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="src\Icon.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
